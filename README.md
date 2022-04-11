@@ -54,7 +54,8 @@
 
     `docker run -p 8000:8000 --name my-container my-image`
   
-  * Para para o container execute:
+  * Para parar o container execute:
+
     `docker stop <identificador_do_container>`
   
   Existem diversas flags que podem ser adicionadas que podem ser vistas em [Run](https://docs.docker.com/engine/reference/commandline/run/).
