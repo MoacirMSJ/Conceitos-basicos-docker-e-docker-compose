@@ -1,0 +1,12 @@
+FROM python
+
+RUN mkdir /hello
+
+COPY hello.py /hello/hello.py
+
+ENV NAME='Moacir'
+
+WORKDIR /hello
+EXPOSE 8000
+
+CMD [ "python", "hello.py" ]
